@@ -1,8 +1,8 @@
 package com.example;
 
 public class CuentaBancaria {
-    String titular;
-    double saldo;
+    private String titular;
+    private double saldo;
 
 
     public CuentaBancaria(String titular, double saldoinicial){

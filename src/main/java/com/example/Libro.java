@@ -10,16 +10,16 @@ public Libro(){
     this.paginas = 0; 
 }
 
-public Libro(String libro, String autor){
-this.titulo = "Harry Potter";
-this.autor = "J.K. Rowling";
+public Libro(String titulo, String autor){
+this.titulo = titulo;
+this.autor = autor;
 this.paginas = 0;
 }
 
-public Libro(String libro, String autor, int pagina){
-this.titulo = "El señor de los Anillo";
-this.autor = "J.R.R. Tolkien";
-this.paginas = 1200;
+public Libro(String titulo, String autor, int pagina){
+this.titulo = titulo;
+this.autor = autor;
+this.paginas = pagina;
 }
 
 public void mostrarDetalles(){

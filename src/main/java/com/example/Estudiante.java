@@ -1,9 +1,9 @@
 package com.example;
 
 public class Estudiante {
-    String nombre;
-    int edad;
-    double promedio;
+    private String nombre;
+    private int edad;
+    private double promedio;
 
     public Estudiante(){
         this.nombre = "Juan Diego";
@@ -27,7 +27,7 @@ public class Estudiante {
         return edad;
     }
 
-    public void setEdad(int edad, int valor){
+    public void setEdad(int edad){
         if (edad > 0){
             this.edad = edad;
         }
